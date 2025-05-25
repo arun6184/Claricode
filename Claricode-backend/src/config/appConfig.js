@@ -1,8 +1,7 @@
-const config = {
-  jwtSecret: process.env.JWT_SECRET || '027fdee93d1e3dd2dce2c57a7b742e7e9f3646cf7b0ddfa7f2545f04c03735167de97fe917ae24d24fa40501f681810d8968ddb56b1471145e2c3b201559803d742f46fba2aa798a44222f37d577053f32a23cf2dfbd3513107f7ec94630033aa581ba122400c0ebbc4459dda44e96b753068e8726eba9db31efb5008127a4bfc841403f942af7687430d841ac21b13beaada97d20ef5218e85cfd10aa4eeb0e3d67894d304352be6f71615323d446447b4843964981dd35b46be849fac145133fbef4c804a15a8ec9caf16b617112eb026ad129a0ad5e4f5f5e2062de624b6bae6de74d0610e6d153bf3e40011c8bd1cd4fa73d0709fe387c914928e2eadd53184e20b5138c21c3f4c8b550e43482a3e3405170b757b48fbbf3483cb1f03845',
-  pineconeApiKey: process.env.PINECONE_API_KEY || 'pcsk_4n4qJw_RGBEag8P1puztM2nk7VCgbZTXs1B4MvkbNt1NyNcLuxVhgcCzEDFoANwyartW9n',
-  pineconeControllerHostUrl: process.env.PINECONE_CONTROLLER_HOST_URL || 'https://controller.us-east-1.pinecone.io',
-  openAiApiKey: process.env.OPENAI_API_KEY || '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'
-};
+-const config = {
+  jwtSecret: process.env.JWT_SECRET || '',
+  pineconeApiKey: process.env.PINECONE_API_KEY || '-',
+  pineconeControllerHostUrl: process.env.PINECONE_CONTROLLER_HOST_URL || 'https://controller.---.pinecone.io',
+  openAiApiKey: process.env.OPENAI_API_KEY || 
 
 export default config;
