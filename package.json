@@ -1,0 +1,7 @@
+{
+  "devDependencies": {
+    "@types/vscode": "^1.100.0",
+    "nodemon": "^3.1.10",
+    "vscode": "^1.1.37"
+  }
+}
